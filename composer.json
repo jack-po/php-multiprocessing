@@ -1,0 +1,21 @@
+{
+    "name": "jackpo/multiprocessing",
+    "description": "Multiprocessing library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeny Pospelov",
+            "email": "evgeny.pospelov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-sockets": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JackPo\\MultiProcessing\\": "src/",
+            "JackPo\\MultiProcessingExamples\\": "examples/"
+        }
+    }
+}
